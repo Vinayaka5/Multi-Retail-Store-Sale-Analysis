@@ -2,7 +2,7 @@ This project is a small multi‑store retail sales analytics dashboard that I bu
 products are moving fastest over a short time period. It is designed for an owner of a brand like Nappa Dori who wants a simple internal tool to compare daily sales across multiple 
 outlets without using complex BI tools or spreadsheets.
 
-The backend is implemented with Flask, which exposes a basic route (/) that connects to a MySQL database, runs aggregation queries, and renders the results into an HTML template. 
+The backend is implemented with Flask, which exposes a basic route that connects to a MySQL database, runs aggregation queries, and renders the results into an HTML template. 
 I created a separate setup script in Python to programmatically create the retail_dashboard database, define stores and sales tables, and insert initial store records, 
 so the environment can be recreated quickly on any local machine without manually clicking in database tools.
 
